@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html>
+  <body>
+   <div style="background-color:blue;color:white;">
+    <h2>Patrones</h2>
+
+     <p id="demo"></p>
+   </div>
+  <script>
+var text = "";
+var y;
+for (y = 1; y <= 5; y++) 
+{
+   for(x=1;x<=y;x++)
+      {
+         text += "*";
+      }
+         text += "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+   </script>
+  </body>
+ </html>
